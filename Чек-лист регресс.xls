@@ -1,0 +1,352 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=LiFp-QmcD5CCBmS95j81PG7rnHJj6IDwStr3WqMIBA6QGfsWfU_oujbbWgvlx6bezrIt6KM-saa5MS2014DCK3rRs6lPph_tgHEy9vzTypZ88W_Sl5DF2Y76PkD1UWHt" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jaGxpc3Quc2l0ZWNoY28ucnUvcHJvamVjdC8yODIyMC9jaGVja2xpc3QvMTE1OTk5NC9kZXRhaWxzL2V4Y2Vs"/></head>
+<table  border="1">
+    <tr>
+        <td colspan="4">Название (Аббр.): Регресс-тестирование (РТС)</td>
+    </tr>
+    <tr>
+        <td colspan="4">Описание: </td>
+    </tr>
+            <tr>
+        <td colspan="4">Статус: Не согласован </td>
+    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Просмотр расписания</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Средний        </td>
+        <td>Открыть текущую неделю</td>
+                <td>Текущая неделя открывается корректно</td>
+                    </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Средний        </td>
+        <td>Открыть прошедшую неделю</td>
+                <td>Прошедшая неделя открывается  корректно</td>
+                    </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Средний        </td>
+        <td>Открыть следующую неделю</td>
+                <td>Следующая неделя открывается корректно</td>
+                    </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Средний        </td>
+        <td>Убрать из расписания личные события</td>
+                <td>В расписании остались только уроки</td>
+                    </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Средний        </td>
+        <td>Добавить личные события в расписания</td>
+                <td>Личные события отображаются в расписании</td>
+                    </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Средний        </td>
+        <td>Включить уменьшенный масштаб расписания</td>
+                <td>Открывается уменьшенный масштаб расписания</td>
+                    </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Средний        </td>
+        <td>Включить оригинальный масштаб расписания</td>
+                <td>Открывается оригинальный масштаб расписания</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Добавление урока</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Средний        </td>
+        <td>Добавить урок кликом на слот</td>
+                <td>Открывается окно создания события</td>
+                    </tr>
+        <tr>
+        <td>
+            9        </td>
+        <td>
+            Средний        </td>
+        <td>Добавить урок кликом на плюсик</td>
+                <td>Открывается окно создания события</td>
+                    </tr>
+        <tr>
+        <td>
+            10        </td>
+        <td>
+            Средний        </td>
+        <td>Работоспособность вкладки "Новый урок"</td>
+                <td>Открывается вкладка для добавления "Нового урока"</td>
+                    </tr>
+        <tr>
+        <td>
+            11        </td>
+        <td>
+            Средний        </td>
+        <td>Выбрать "разовый" или "регулярный " урок</td>
+                <td>Радиобаттон переключается</td>
+                    </tr>
+        <tr>
+        <td>
+            12        </td>
+        <td>
+            Средний        </td>
+        <td>Выбрать ученика из списка (Гульшат)</td>
+                <td>Ученик выбран</td>
+                    </tr>
+        <tr>
+        <td>
+            13        </td>
+        <td>
+            Средний        </td>
+        <td>Выбрать день урока - дату в прошлом 22.01.2022</td>
+                <td>Система не дает выбрать дату в прошлом</td>
+                    </tr>
+        <tr>
+        <td>
+            14        </td>
+        <td>
+            Средний        </td>
+        <td>Выбрать текущую дату</td>
+                <td>Система принимает текущую дату</td>
+                    </tr>
+        <tr>
+        <td>
+            15        </td>
+        <td>
+            Средний        </td>
+        <td>Выбрать дату из будущего (06.02.2022)</td>
+                <td>Система принимает дату</td>
+                    </tr>
+        <tr>
+        <td>
+            16        </td>
+        <td>
+            Средний        </td>
+        <td>Выбрать время урока - свободное время в расписании</td>
+                <td>Система принимает время</td>
+                    </tr>
+        <tr>
+        <td>
+            17        </td>
+        <td>
+            Средний        </td>
+        <td>Выбрать время урока, которое занято в расписании</td>
+                <td>Уведомление об ошибке</td>
+                    </tr>
+        <tr>
+        <td>
+            18        </td>
+        <td>
+            Средний        </td>
+        <td>Работоспособность кнопки "Добавить в расписание"</td>
+                <td>Урок добавлен в расписание</td>
+                    </tr>
+        <tr>
+        <td>
+            19        </td>
+        <td>
+            Средний        </td>
+        <td>Добавить разовый урок в расписание</td>
+                <td>Урок добавлен в расписание один раз</td>
+                    </tr>
+        <tr>
+        <td>
+            20        </td>
+        <td>
+            Средний        </td>
+        <td>Добавить регулярный урок</td>
+                <td>Урок добавлен на еженедельной основе в указанный день и время</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Отмена урока</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            21        </td>
+        <td>
+            Средний        </td>
+        <td>Отменить регулярный урок</td>
+                <td>Урок отменен</td>
+                    </tr>
+        <tr>
+        <td>
+            22        </td>
+        <td>
+            Средний        </td>
+        <td>Отменить разовый урок</td>
+                <td>Урок отменен</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Перенос урока</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            23        </td>
+        <td>
+            Средний        </td>
+        <td>Перенести регулярный урок разово</td>
+                <td>Урок перенесен</td>
+                    </tr>
+        <tr>
+        <td>
+            24        </td>
+        <td>
+            Средний        </td>
+        <td>Перенести регулярный урок на регулярной основе</td>
+                <td>Урок перенесен</td>
+                    </tr>
+        <tr>
+        <td>
+            25        </td>
+        <td>
+            Средний        </td>
+        <td>Перенести разовый урок</td>
+                <td>Урок перенесен</td>
+                    </tr>
+        <tr>
+        <td>
+            26        </td>
+        <td>
+            Средний        </td>
+        <td>Перенести урок в неактивный слот</td>
+                <td>Уведомление, что время занято</td>
+                    </tr>
+        <tr>
+        <td>
+            27        </td>
+        <td>
+            Средний        </td>
+        <td>Перенести урок в то время, когда есть урок</td>
+                <td>Уведомление, что время занято</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Редактирование настроек слота</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            28        </td>
+        <td>
+            Средний        </td>
+        <td>Изменить "Переносы", "Замены", "Новые ученики"</td>
+                <td>Изменения отразились в расписании</td>
+                    </tr>
+        <tr>
+        <td>
+            29        </td>
+        <td>
+            Средний        </td>
+        <td>Изменить "Открыто сегодня"</td>
+                <td>Изменения отразились в расписании</td>
+                    </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
